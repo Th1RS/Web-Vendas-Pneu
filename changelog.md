@@ -9,3 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1] - 09/11/2023
 ### Added 
 - Added changelog.md
+## [0.0.2] - 10/11/2023
+### Chore
+- Added cabeçalho e alterando o estilo atravéz do css, estou copiando o projeto ensinado pela EBAC
