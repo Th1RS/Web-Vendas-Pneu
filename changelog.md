@@ -12,3 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.2] - 10/11/2023
 ### Chore
 - Added cabeçalho e alterando o estilo atravéz do css, estou copiando o projeto ensinado pela EBAC
+## [0.0.3] - 15/11/2023
+### Feat 
+- atualizando, documentos no changelog, depois de um tempo resovi rever as aulas e colocar o projeto em prática. 
+- add cabeçario, imagens/logos e footer 
