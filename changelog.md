@@ -15,4 +15,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.3] - 15/11/2023
 ### Feat 
 - atualizando, documentos no changelog, depois de um tempo resovi rever as aulas e colocar o projeto em prática. 
-- add cabeçario, imagens/logos e footer 
+- add cabeçario, imagens/logos e footer  
+## [0.0.4] - 16/11/2023 
+### Feat 
+- atualizando changelog, adicionado produtos e suas respectivas funções (tive ajuda do gpt)
+- a seção de produtos tem uma interação, feita por css 
