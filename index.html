@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Max Pneus</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -13,29 +16,86 @@
             <h1>Max Pneus</h1>
         <nav>
             <ul>
-                <li><a href="#">sobre</a></li>
+                <li><a href="#sobre">sobre</a></li>
                 <li><a href="#">produtos</a></li>
+                <li><a href="#contato">contatos</a></li>
             </ul>
         </nav>
         </div>
     </header>
-    <section>
+    <section id="sobre">
         <div class="conteiner">
-            <img src="#" alt="#">
-            <h2>Sobre a loja</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Sed ea perspiciatis veniam ut aliquam ullam eligendi culpa provident iure optio delectus minus officiis sequi eveniet ipsum odio illum,
-                cupiditate asperiores.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Fuga ipsa voluptate nesciunt labore error adipisci ratione mollitia,
-                 odit minus aut numquam voluptates aperiam illo delectus unde illum voluptatibus ad! Molestiae.
-            </p>
+            <img class="loja" src="./imgens/pneu.jpg" alt="Foto lateral de um pneu"/>
+            <div>
+                <h2>Sobre a loja</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sed ea perspiciatis veniam ut aliquam ullam eligendi culpa provident iure optio delectus minus officiis sequi eveniet ipsum odio illum,
+                    cupiditate asperiores.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fuga ipsa voluptate nesciunt labore error adipisci ratione mollitia,
+                    odit minus aut numquam voluptates aperiam illo delectus unde illum voluptatibus ad! Molestiae.
+                </p>
+                <ul class="marcas-logos">
+                    <li>
+                        <img src="./imgens/fire.jpg" alt="Logo da marca Fire"/>
+                    </li>
+                    <li>
+                        <img src="./imgens/pro.jpg" alt="Logo da marca Pro"/>
+                    </li>
+                    <li>
+                        <img src="./imgens/top.jpg" alt="Logo da marca Top"/>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
-    <div class="conteiner">
+    <section id="contato">
+        <div class="conteiner">
+            <h2>contato</h2>
+            <div class="formas-contato">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type= "text" placeholder=" Nome" required/>
+                        <input type= "email" placeholder=" @" required/>
+                        <input type= "tel" placeholder=" +55()"/>
+                        <textarea placeholder="Sua mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Segue nós</h3>
+                    <ul  class="logos">
+                        <li>
+                            <a href="#" title="Siga-nos na Instagram">
+                                <img src="./imgens/OIP.jpeg" alt="Logo do insta"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Github">
+                                <img src="./imgens/OIP (2).jpeg" alt="Logo do Github"/>
+                            </a>
+                        </li>
+                    </ul>
+               </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>
+                        Rua python n°3.7, Av.Junior - Paraná - PR
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="conteiner"></div>
+        <p>
+            &copy; Max pneus - 2023
+        </p>
+    </footer>
     </div>
 </body>
 </html>
